@@ -6,15 +6,15 @@ This dataset contains personal morning routine records including sleep, meditati
 Columns:
 
 Column
-Date - Date and time when the record was logged
-Wake-up Time	- Time of waking up
-Sleep Duration (hrs)	- Number of hours slept
-Meditation (mins) - 	Minutes spent meditating
-Exercise (mins) - 	Minutes spent exercising
-Breakfast Type -	Type of breakfast (Protein-rich, Carb-rich, Heavy, Light, Skipped)
-Journaling (Y/N) -	Whether journaling was done
-Work Start Time -	Time when work starts
-Productivity Score (1-10) -	Self-reported productivity score
+Date - Date and time when the record was logged, 
+Wake-up Time	- Time of waking up, 
+Sleep Duration (hrs)	- Number of hours slept, 
+Meditation (mins) - 	Minutes spent meditating, 
+Exercise (mins) - 	Minutes spent exercising, 
+Breakfast Type -	Type of breakfast (Protein-rich, Carb-rich, Heavy, Light, Skipped), 
+Journaling (Y/N) -	Whether journaling was done, 
+Work Start Time -	Time when work starts, 
+Productivity Score (1-10) -	Self-reported productivity score, 
 Mood -	Mood label (Sad, Neutral, Happy)
 
 Libraries and Tools Used
