@@ -57,7 +57,7 @@ This dataset contains personal morning routine records including sleep, meditati
    - Scatter plot of Productivity vs Sleep Duration colored by Mood to identify patterns.
 
 
-## 🛠 Feature Engineering Performed
+## Feature Engineering Performed
 
 1. **Datetime Conversion**  
    - Converted `Date` to `datetime64` type for easier time-based analysis.  
