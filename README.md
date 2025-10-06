@@ -41,10 +41,7 @@ This dataset contains personal morning routine records including sleep, meditati
    - Created histograms to visualize the distribution of sleep categories.
 
 2. **Correlation Analysis**  
-   - Calculated correlation between:  
-     - Sleep Duration and Meditation → nearly 0 (no correlation)  
-     - Sleep Duration and Productivity → measured correlation to analyze effect of sleep on productivity  
-     - Mood (encoded numerically) and Productivity  
+   - correlation(heatmap) for all the numerical columns.
 
 3. **Meditation + Exercise Analysis**  
    - Compared days with more vs less total minutes of meditation and exercise using bar charts.
@@ -55,6 +52,12 @@ This dataset contains personal morning routine records including sleep, meditati
 
 5. **Productivity and Mood**  
    - Scatter plot of Productivity vs Sleep Duration colored by Mood to identify patterns.
+
+6. **Distributions analysis**
+   - histogram plot for numerical columns Sleep Duration,Meditation,Exercise,Productivity.
+  
+7. **Outlier Detection**
+   - outliers detection using boxplot for all numeric columns.
 
 
 ## Feature Engineering Performed
@@ -76,6 +79,9 @@ This dataset contains personal morning routine records including sleep, meditati
 - Histograms for **sleep duration categories**  
 - Bar charts for **journaling frequency**  
 - Pie chart for **breakfast type distribution**  
-- Scatter plots for **sleep vs productivity** colored by mood  
 - Bar chart comparing **days with more vs less total meditation + exercise minutes**
+
+**ANALYSIS**
+
+"Create a scatter plot of Productivity versus Sleep Duration, using Mood (Happy, Sad, Neutral) to differentiate the points, and analyze the percentage of days corresponding to each mood."
 
